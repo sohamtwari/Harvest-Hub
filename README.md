@@ -24,6 +24,7 @@ Harvest Hub is a Python-based desktop application designed to provide accessible
 ### 1. Clone the repository
 
 git clone https://github.com/YOUR-USERNAME/Harvest-Hub.git
+
 cd Harvest-Hub
 
 
