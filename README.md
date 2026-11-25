@@ -1,40 +1,68 @@
-# Harvest Hub
+# Harvest Hub 
 
-Harvest Hub is a Python desktop application that provides crop information and cultivation guidance. Users can explore crops based on soil type, irrigation needs, and growing season.
+Harvest Hub is a Python-based desktop application designed to provide accessible crop information and cultivation guidance. The application allows users to explore crops based on agricultural requirements and access information about cultivation practices.
 
 ## Features
-- Filter crops by agricultural requirements
-- View crop details and cultivation steps
-- Select crops and generate reports
-- Login and registration system
 
-## Technologies
-Python, Tkinter, MySQL, SQLAlchemy, Pandas, Pillow
+- Crop filtering based on soil type, irrigation requirements, and growing season
+- Crop information and cultivation guidance
+- Crop selection and report generation
+- User login and registration interface
+- Cultivation information and growing steps
 
-## Setup
+## Technologies Used
 
-1. Clone the repository:
-```bash
+- Python
+- Tkinter
+- MySQL
+- SQLAlchemy
+- Pandas
+- Pillow
+
+## Installation
+
+### 1. Clone the repository
+
 git clone https://github.com/YOUR-USERNAME/Harvest-Hub.git
 cd Harvest-Hub
-```
 
-2. Create and activate a virtual environment:
-```bash
+
+### 2. Create a virtual environment
+
 python -m venv farmerhub-venv
+
+
+### 3. Activate the virtual environment
+
+Windows:
+
 farmerhub-venv\Scripts\activate
-```
 
-3. Install dependencies:
-```bash
+
+### 4. Install dependencies
+
 pip install -r requirements.txt
-```
 
-4. Set up MySQL and import the database file.
 
-5. Update the database connection details in the code.
+### 5. Set up the MySQL database
 
-6. Run the application:
-```bash
+Install MySQL and import the database backup located in the database folder.
+
+### 6. Configure database credentials
+
+Update the database connection settings in the application to match your local MySQL configuration.
+
+### 7. Run the application
+
 python login.py
-```
+
+
+## Database
+
+Harvest Hub uses MySQL to store crop information and application data.
+
+The database backup is provided in the database folder to allow users to recreate the database locally.
+
+## Project
+
+Developed as a Python desktop application project.
